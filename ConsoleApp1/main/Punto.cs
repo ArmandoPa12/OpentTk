@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.main
 {
-    class Punto
+    public class Punto
     {
         public float X {  get; set; }
         public float Y { get; set; }
@@ -14,7 +14,7 @@ namespace ConsoleApp1.main
 
         public Punto()
         {
-            X = Y = Z = 0;
+            X = Y = Z = 0.0f;
         }
         public Punto(float v)
         {
